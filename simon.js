@@ -122,7 +122,9 @@ function playSequence(addColor) {
     sequence.push(nextColorIndex); // add a color to the sequence
   }
 
-  display.textContent = "0" + sequence.length;
+  sequence.length >= 10
+    ? (display.textContent = sequence.length)
+    : (display.textContent = "0" + sequence.length);
 
   for (let index = 0; index < sequence.length; index++) {
     // for loop to allow for break condition

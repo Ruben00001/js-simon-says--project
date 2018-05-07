@@ -252,7 +252,7 @@ body {
   z-index: 30;
   width: 36px;
   height: 18px;
-  border: 2px solid black;
+  border: 2px solid gray;
   border-radius: 13%;
   background-color: rgb(78, 76, 76);
 }
@@ -261,7 +261,7 @@ body {
   z-index: 30;
   width: 16px;
   height: 18px;
-  border: black 2px solid;
+  border: gray 2px solid;
   background-color: rgb(255, 80, 197);
   border-radius: 7%;
   box-sizing: border-box;
